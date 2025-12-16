@@ -23,8 +23,10 @@ export default function App() {
         <NavMenu>
           <a href="/app" rel="home">Home</a>
           <a href="/app/customer">Customer</a>
+          <a href="/app/product">Product</a>
           <a href="/app/order">Order</a>
           <a href="/app/store-health">Store Health</a>
+          <a href="/app/pricing">Pricing</a>
         </NavMenu>
         <Outlet />
       </PolarisAppProvider>
